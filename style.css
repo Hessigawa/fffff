@@ -1,0 +1,67 @@
+body {
+    background-image: url(/WP.jpg/BG.jpg);
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+    background: rgb(241, 240, 240);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h2 {
+    color: #333;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 95%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
